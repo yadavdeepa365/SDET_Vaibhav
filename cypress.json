@@ -1,0 +1,18 @@
+{
+    "projectId": "12345",
+    "chromeWebSecurity": false,
+    "integrationFolder": "cypress/integration/tests",
+    "baseUrl": "https://www.amazon.co.uk/",
+    "screenshotFolder": "cypress/reports/screenshots",
+    "video": false,
+    "waitForAnimations": true,
+    "videosFolder": "cypress/videos",
+    "pageloadTimeout": 10000,
+    "defaultCommandTimeout": 10000,
+    "requestTimeout": 10000,
+    "responseTimeout": 50000,
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
+}
