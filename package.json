@@ -1,0 +1,26 @@
+{
+  "name": "cypresspractice",
+  "version": "1.0.0",
+  "description": "This is for API automation with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "headless": "npx cypress run",
+    "headed": "npx cypress run --headed",
+    "firefox": "npx cypress run --browser firefox",
+    "open": "npx cypress open",
+    "lint": "eslint cypress"
+  },
+  "author": "VaibhavKumar Bhatt",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "8.2.0",
+    "eslint": "7.32.0",
+    "eslint-plugin-cypress": "2.11.3"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-select-tests": "^1.7.1",
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2"
+  }
+}
